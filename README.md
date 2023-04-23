@@ -28,7 +28,7 @@ Clone the repository to your local machine using git clone.
 Navigate to the instagram-clone-flutter folder in your terminal.
 Run flutter pub get to install the dependencies.
 Create a Firebase project and configure the necessary Firebase services (Firebase Authentication, Firebase Storage, Firestore database).
-Replace the Firebase configuration in the lib/services/firebase_service.dart file with your own Firebase configuration.
+Replace the Firebase configuration in the lib/firebase_options.dart file with your own Firebase configuration.
 Run the app using flutter run command in the terminal or run it from your preferred IDE.
 Open the app on an emulator or physical device to view the Instagram clone.
 
