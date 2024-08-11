@@ -1,52 +1,69 @@
-# Instagram Clone - Full Stack
-This is a full stack Instagram clone created by Amanat Singh using Flutter as the frontend framework and Firebase as the backend service. It replicates the basic functionalities of Instagram, allowing users to register, login, post images, like and comment on posts, and follow other users.
+# Instagram Clone
 
-# Features
-User Authentication: Users can register and login with their email and password using Firebase Authentication.
-Profile Creation: Users can create and edit their profile with their personal information, including a profile picture.
-Image Uploads: Users can upload images to their posts and profile picture using Firebase Storage, a cloud-based storage service.
-Social Features: Users can follow other users, like and comment on posts, and view posts from users they follow in their feed.
-Post Management: Users can create, view, edit, and delete their own posts.
-Search Functionality: Users can search for other users by username.
-Responsive Design: The application is responsive and mobile and web friendly, providing a seamless experience on various devices.
+Welcome to the Instagram Clone project! This Flutter-based application replicates the core features of Instagram, allowing users to explore, interact, and manage their profiles in a familiar social media environment.
 
-# Technologies Used
-# Frontend:
-Flutter
-Dart
-Provider (for state management)
-http (for API requests)
-Firebase SDK (for authentication, storage, and Firestore database)
+## Features
 
-# Backend:
-Firebase (Firebase Authentication, Firebase Storage, Firestore database)
+- **User Authentication**: Sign up, log in, and manage user accounts.
+- **Photo Sharing**: Upload and view photos.
+- **Profile Management**: Update user profiles and view followers.
+- **Feed**: Explore posts from followed users.
+- **Likes & Comments**: Engage with posts by liking and commenting.
 
-# Installation
-To run the Instagram clone on your local machine, follow these steps:
+## Demo
 
-Clone the repository to your local machine using git clone.
-Navigate to the instagram-clone-flutter folder in your terminal.
-Run flutter pub get to install the dependencies.
-Create a Firebase project and configure the necessary Firebase services (Firebase Authentication, Firebase Storage, Firestore database).
-Replace the Firebase configuration in the lib/firebase_options.dart file with your own Firebase configuration.
-Run the app using flutter run command in the terminal or run it from your preferred IDE.
-Open the app on an emulator or physical device to view the Instagram clone.
+Check out the video demo of the Instagram Clone:
 
-# Future Enhancements
-There are several potential future enhancements that could be implemented to further improve the Instagram clone:
+[![Watch on YouTube](https://img.youtube.com/vi/je3J9rca24w/hqdefault.jpg)](https://www.youtube.com/watch?v=je3J9rca24w)
 
-Direct Messaging: Add a direct messaging feature that allows users to send private messages to each other.
-Notifications: Implement notifications for new followers, likes, and comments using Firebase Cloud Messaging.
-Pagination: Implement pagination for posts to optimize performance when the number of posts grows.
-User Settings: Add user settings to allow users to customize their profile and privacy settings.
-Social Sharing: Implement social sharing functionality to allow users to share posts on other social media platforms.
-Hashtags and Search Filters: Add support for hashtags and search filters to make it easier for users to discover posts.
-UI/UX Improvements: Continuously improve the user interface and user experience based on feedback and usability testing.
-Contributing
-This Instagram clone is a personal project and currently not open for contributions. However, feel free to fork the repository and customize it according to your needs.
+## Installation
 
-# License
-This project is licensed under the MIT License.
+To get started with the Instagram Clone, follow these steps:
 
-# Acknowledgements
-Special thanks to Rivaan Ranawat for their video on Instagram clone using Flutter and Firebase.
+1. **Clone the Repository**
+
+    ```bash
+    git clone https://github.com/amanat-2003/instagram-clone.git
+    ```
+
+2. **Navigate to the Project Directory**
+
+    ```bash
+    cd instagram-clone
+    ```
+
+3. **Install Dependencies**
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the App**
+
+    ```bash
+    flutter run
+    ```
+
+## Technologies Used
+
+- **Flutter**: For building the app's UI and functionality.
+- **Firebase**: For backend services including authentication and data storage.
+- **Provider**: For state management.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any inquiries or feedback, you can reach me at [amanatsinghnain@gmail.com](mailto:amanatsinghnain@gmail.com).
